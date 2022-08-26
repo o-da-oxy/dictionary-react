@@ -5,7 +5,7 @@ import {useNavigate} from "react-router-dom";
 const Navigation = (props) => {
     let navigate = useNavigate();
     let clickHandler = () => {
-        if (props.text === 'Click to start') {
+        if (props.text === 'Start') {
             navigate('/dictionary');
         }
         else if (props.text === 'Back') {

@@ -1,3 +1,4 @@
 .App {
-    background: linear-gradient(#e6d1ff, #f8f4ff);
+    background: linear-gradient(#e6d1ff, white);
+    padding: 0 5% 0 5%;
 }

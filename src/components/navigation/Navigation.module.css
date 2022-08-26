@@ -3,12 +3,13 @@
     justify-items: center;
 }
 .navButton {
-    padding: 15px;
+    width: 100px;
+    height: 50px;
     margin: 30px;
     font-size: 17px;
     border-radius: 5px;
     background-color: white;
 }
 .navButton:hover {
-    background: linear-gradient(#e6d1ff, #f8f4ff);
+    background: linear-gradient(#e6d1ff, white);
 }

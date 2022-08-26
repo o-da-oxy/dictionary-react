@@ -1,0 +1,26 @@
+.dictionaryWrapper {}
+.input {
+    display: flex;
+    justify-content: center;
+}
+.inputField, .inputButton {
+    font-size: 15px;
+    padding: 10px;
+    margin: 20px 5px 0 5px;
+    background-color: white;
+    border-color: black;
+    border-radius: 5px;
+}
+.inputField:focus {
+    outline: #e6d1ff 5px outset;
+}
+.inputButton:hover {
+    outline: #e6d1ff 5px outset;
+}
+.result, .errorResult {
+    display: grid;
+    justify-items: center;
+}
+.errorResult {
+    margin-top: 25px;
+}
