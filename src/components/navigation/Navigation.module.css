@@ -1,0 +1,14 @@
+.nav {
+    display: grid;
+    justify-items: center;
+}
+.navButton {
+    padding: 15px;
+    margin: 30px;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: white;
+}
+.navButton:hover {
+    background: linear-gradient(#e6d1ff, #f8f4ff);
+}
